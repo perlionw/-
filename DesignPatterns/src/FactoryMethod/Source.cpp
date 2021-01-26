@@ -2,9 +2,15 @@
 #include "AudiFactory.h"
 #include "HongqiFactory.h"
 #include <iostream>
+#include <vector>
+#include <deque>
+#include <map>
+#include <algorithm>
+#include <memory>
+using namespace std;
+
 int main()
 {
-
 	AbstractFactory* audi_factory = new AudiFactory;
 
 	AbstractFactory* mercedes_factory = new MercedesFactory;

@@ -6,6 +6,7 @@ public:
 	Component(std::string id, std::string name, std::string type);
 public:
 	virtual std::string GetParentId() = 0;
+
 	virtual void print() = 0;
 public:
 	std::string m_id;
