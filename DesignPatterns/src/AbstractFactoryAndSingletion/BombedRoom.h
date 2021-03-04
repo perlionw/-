@@ -4,6 +4,7 @@ class BombedRoom :
 	public Room
 {
 public:
+	BombedRoom();
 	BombedRoom(int n);
 	~BombedRoom();
 

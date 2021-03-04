@@ -1,12 +1,10 @@
-﻿Build started 2020/11/24 14:29:29.
+﻿Build started 2021/1/20 16:54:57.
      1>Project "E:\BasicStudy\DesignPatterns\DesignPatterns\src\FactoryMethod\FactoryMethod.vcxproj" on node 2 (Build target(s)).
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(356,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
      1>ClCompile:
-         C:\ZWSWorkSpace\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\ZSoftWare\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"E:\BasicStudy\DesignPatterns\DesignPatterns\solution\..\temp\Debug\FactoryMethod\\" /Fd"E:\BasicStudy\DesignPatterns\DesignPatterns\solution\..\temp\Debug\FactoryMethod\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt HongqiFactory.cpp Source.cpp
+         C:\ZWSWorkSpace\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\ZSoftWare\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"E:\BasicStudy\DesignPatterns\DesignPatterns\solution\..\temp\Debug\FactoryMethod\\" /Fd"E:\BasicStudy\DesignPatterns\DesignPatterns\solution\..\temp\Debug\FactoryMethod\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
          Source.cpp
-         HongqiFactory.cpp
-         Generating Code...
        Link:
          C:\ZWSWorkSpace\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\BasicStudy\DesignPatterns\DesignPatterns\solution\..\temp\Debug\FactoryMethod\FactoryMethod.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\ZSoftWare\Visual Leak Detector\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\BasicStudy\DesignPatterns\DesignPatterns\solution\..\temp\Debug\FactoryMethod\FactoryMethod.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\BasicStudy\DesignPatterns\DesignPatterns\solution\..\temp\Debug\FactoryMethod\FactoryMethod.lib" /MACHINE:X86 E:\BasicStudy\DesignPatterns\DesignPatterns\solution\..\temp\Debug\FactoryMethod\AbstractCar.obj
          E:\BasicStudy\DesignPatterns\DesignPatterns\solution\..\temp\Debug\FactoryMethod\AbstractFactory.obj
@@ -26,4 +24,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.75
+Time Elapsed 00:00:00.67

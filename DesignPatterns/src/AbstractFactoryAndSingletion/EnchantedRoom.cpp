@@ -6,6 +6,11 @@ EnchantedRoom::EnchantedRoom(int n) : Room(n)
 }
 
 
+EnchantedRoom::EnchantedRoom()
+{
+
+}
+
 EnchantedRoom::~EnchantedRoom()
 {
 }

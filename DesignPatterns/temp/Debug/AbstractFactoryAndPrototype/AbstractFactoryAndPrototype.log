@@ -1,0 +1,31 @@
+﻿Build started 2021/1/30 19:32:52.
+     1>Project "E:\BasicStudy\DesignPatterns\DesignPatterns\src\AbstractFactoryAndPrototype\AbstractFactoryAndPrototype.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(356,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\ZWSWorkSpace\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\ZSoftWare\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"E:\BasicStudy\DesignPatterns\DesignPatterns\solution\..\temp\Debug\AbstractFactoryAndPrototype\\" /Fd"E:\BasicStudy\DesignPatterns\DesignPatterns\solution\..\temp\Debug\AbstractFactoryAndPrototype\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MazeGame.cpp
+         MazeGame.cpp
+       Link:
+         C:\ZWSWorkSpace\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\BasicStudy\DesignPatterns\DesignPatterns\solution\..\temp\Debug\AbstractFactoryAndPrototype\AbstractFactoryAndPrototype.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\ZSoftWare\Visual Leak Detector\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\BasicStudy\DesignPatterns\DesignPatterns\solution\..\temp\Debug\AbstractFactoryAndPrototype\AbstractFactoryAndPrototype.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\BasicStudy\DesignPatterns\DesignPatterns\solution\..\temp\Debug\AbstractFactoryAndPrototype\AbstractFactoryAndPrototype.lib" /MACHINE:X86 E:\BasicStudy\DesignPatterns\DesignPatterns\solution\..\temp\Debug\AbstractFactoryAndPrototype\BombedDoor.obj
+         E:\BasicStudy\DesignPatterns\DesignPatterns\solution\..\temp\Debug\AbstractFactoryAndPrototype\BombedRoom.obj
+         E:\BasicStudy\DesignPatterns\DesignPatterns\solution\..\temp\Debug\AbstractFactoryAndPrototype\BombedWall.obj
+         E:\BasicStudy\DesignPatterns\DesignPatterns\solution\..\temp\Debug\AbstractFactoryAndPrototype\Door.obj
+         E:\BasicStudy\DesignPatterns\DesignPatterns\solution\..\temp\Debug\AbstractFactoryAndPrototype\EnchantedDoor.obj
+         E:\BasicStudy\DesignPatterns\DesignPatterns\solution\..\temp\Debug\AbstractFactoryAndPrototype\EnchantedRoom.obj
+         E:\BasicStudy\DesignPatterns\DesignPatterns\solution\..\temp\Debug\AbstractFactoryAndPrototype\EnchantedWall.obj
+         E:\BasicStudy\DesignPatterns\DesignPatterns\solution\..\temp\Debug\AbstractFactoryAndPrototype\Main.obj
+         E:\BasicStudy\DesignPatterns\DesignPatterns\solution\..\temp\Debug\AbstractFactoryAndPrototype\Maze.obj
+         E:\BasicStudy\DesignPatterns\DesignPatterns\solution\..\temp\Debug\AbstractFactoryAndPrototype\MazeFactory.obj
+         E:\BasicStudy\DesignPatterns\DesignPatterns\solution\..\temp\Debug\AbstractFactoryAndPrototype\MazeGame.obj
+         E:\BasicStudy\DesignPatterns\DesignPatterns\solution\..\temp\Debug\AbstractFactoryAndPrototype\Room.obj
+         E:\BasicStudy\DesignPatterns\DesignPatterns\solution\..\temp\Debug\AbstractFactoryAndPrototype\Wall.obj
+         AbstractFactoryAndPrototype.vcxproj -> E:\BasicStudy\DesignPatterns\DesignPatterns\solution\..\temp\Debug\AbstractFactoryAndPrototype\AbstractFactoryAndPrototype.exe
+       PostBuildEvent:
+         copy E:\BasicStudy\DesignPatterns\DesignPatterns\solution\..\temp\Debug\AbstractFactoryAndPrototype\AbstractFactoryAndPrototype.exe E:\BasicStudy\DesignPatterns\DesignPatterns\solution\..\output\Debug\
+         :VCEnd
+         已复制         1 个文件。
+     1>Done Building Project "E:\BasicStudy\DesignPatterns\DesignPatterns\src\AbstractFactoryAndPrototype\AbstractFactoryAndPrototype.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.72

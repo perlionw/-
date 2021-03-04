@@ -7,6 +7,11 @@ Room::Room(int n)
 }
 
 
+Room::Room()
+{
+
+}
+
 Room::~Room()
 {
 }

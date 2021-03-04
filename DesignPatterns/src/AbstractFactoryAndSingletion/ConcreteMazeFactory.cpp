@@ -5,7 +5,14 @@
 #include "BombedDoor.h"
 #include "EnchantedWall.h"
 #include "BombedWall.h"
+#include "ObjectFactory.hpp"
 
+REGISTER_CLASS(EnchantedWall)
+REGISTER_CLASS(BombedWall)
+REGISTER_CLASS(EnchantedRoom)
+REGISTER_CLASS(BombedRoom)
+REGISTER_CLASS(BombedDoor)
+REGISTER_CLASS(EnchantedDoor)
 ConcreteMazeFactory::ConcreteMazeFactory()
 {
 }
@@ -15,48 +22,17 @@ ConcreteMazeFactory::~ConcreteMazeFactory()
 {
 }
 
-std::shared_ptr<Wall> ConcreteMazeFactory::GetWall(WallType type)
+std::shared_ptr<Wall> ConcreteMazeFactory::GetWall(const std::string& class_name)
 {
-	switch (type)
-	{
-		case ENCHANTED1:
-			return std::make_shared<EnchantedWall>();
-			break;
-		case BOMBED1:
-			return std::make_shared<BombedWall>();
-			break;
-		default:
-			break;
-	}
+	return std::shared_ptr<Wall>(static_cast<Wall*>(CObjectFactory::createObject(class_name)));
 }
 
-std::shared_ptr<Room> ConcreteMazeFactory::GetRoom(RoomType type, int n)
+std::shared_ptr<Room> ConcreteMazeFactory::GetRoom(const std::string& class_name, int n)
 {
-	switch (type)
-	{
-		case ENCHANTED2:
-			return std::make_shared<EnchantedRoom>(n);
-			break;
-		case BOMBED2:
-			return std::make_shared<BombedRoom>(n);
-			break;
-		default:
-			break;
-	}
+	return std::shared_ptr<Room>(static_cast<Room*>(CObjectFactory::createObject(class_name)));
 }
 
-std::shared_ptr<Door> ConcreteMazeFactory::GetDoor(DoorType type, std::shared_ptr<Room> r1, std::shared_ptr<Room> r2)
+std::shared_ptr<Door> ConcreteMazeFactory::GetDoor(const std::string& class_name, std::shared_ptr<Room> r1, std::shared_ptr<Room> r2)
 {
-	switch (type)
-	{
-		case ENCHANTED3:
-			return std::make_shared<EnchantedDoor>(r1, r2);
-			break;
-		case BOMBED3:
-			return std::make_shared<BombedDoor>(r1, r2);
-			break;
-		default:
-			break;
-	}
-	return NULL;
+	return std::shared_ptr<Door>(static_cast<Door*>(CObjectFactory::createObject(class_name)));
 }

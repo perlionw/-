@@ -15,6 +15,10 @@ enum ORIENTATION
 class Room
 {
 public:
+
+
+	Room();
+
 	Room(int n);
 	~Room();
 

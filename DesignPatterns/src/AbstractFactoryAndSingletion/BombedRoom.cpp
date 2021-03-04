@@ -6,6 +6,11 @@ BombedRoom::BombedRoom(int n) : Room(n)
 }
 
 
+BombedRoom::BombedRoom()
+{
+
+}
+
 BombedRoom::~BombedRoom()
 {
 }

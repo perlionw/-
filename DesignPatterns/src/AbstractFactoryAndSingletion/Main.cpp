@@ -3,6 +3,8 @@
 #include <algorithm>
 #include <thread>
 #include <string>
+#include <vector>
+
 
 int main()
 {
@@ -10,9 +12,6 @@ int main()
 	game->CreateMaze();
 
 	std::cout << "=================================" << std::endl;
-
-	game.reset(new MazeGame(DOOR));
-	game->CreateMaze();
 	system("pause");
 	return 0;
 }

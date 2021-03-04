@@ -13,126 +13,144 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="MazeFactory">
+      <UniqueIdentifier>{df30a46c-f1da-4042-bc4f-e66d512db55c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Door">
+      <UniqueIdentifier>{f4be1876-17bf-4947-af87-be9593140476}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Room">
+      <UniqueIdentifier>{700551dd-03eb-496a-9599-2446b8ab3553}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Maze">
+      <UniqueIdentifier>{74bc2316-06f6-491b-b66c-1653ebcf2532}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Wall">
+      <UniqueIdentifier>{122ab7d1-7838-4f39-80f6-4fb80e1431a1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Room.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="BombedRoom.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="EnchantedRoom.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Wall.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="BombedWall.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="EnchantedWall.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Door.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="EnchantedDoor.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="BombedDoor.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="MazeGame.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="MazeFactory.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Maze.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="BombedMaze.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="EnchantedMaze.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="RoomFactory.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="ConcreteMazeFactory.cpp">
+      <Filter>MazeFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="MazeFactory.cpp">
+      <Filter>MazeFactory</Filter>
     </ClCompile>
     <ClCompile Include="WallFactory.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>MazeFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomFactory.cpp">
+      <Filter>MazeFactory</Filter>
     </ClCompile>
     <ClCompile Include="DoorFactory.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>MazeFactory</Filter>
     </ClCompile>
-    <ClCompile Include="ConcreteMazeFactory.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Door.cpp">
+      <Filter>Door</Filter>
+    </ClCompile>
+    <ClCompile Include="BombedDoor.cpp">
+      <Filter>Door</Filter>
+    </ClCompile>
+    <ClCompile Include="EnchantedDoor.cpp">
+      <Filter>Door</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>Room</Filter>
+    </ClCompile>
+    <ClCompile Include="EnchantedRoom.cpp">
+      <Filter>Room</Filter>
+    </ClCompile>
+    <ClCompile Include="BombedRoom.cpp">
+      <Filter>Room</Filter>
+    </ClCompile>
+    <ClCompile Include="Maze.cpp">
+      <Filter>Maze</Filter>
+    </ClCompile>
+    <ClCompile Include="EnchantedMaze.cpp">
+      <Filter>Maze</Filter>
+    </ClCompile>
+    <ClCompile Include="BombedMaze.cpp">
+      <Filter>Maze</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="EnchantedWall.cpp">
+      <Filter>Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="BombedWall.cpp">
+      <Filter>Wall</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Room.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="BombedRoom.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="EnchantedRoom.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Wall.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="BombedWall.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="EnchantedWall.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Door.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="EnchantedDoor.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="BombedDoor.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="MazeGame.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="MazeFactory.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Maze.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="BombedMaze.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="EnchantedMaze.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="RoomFactory.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="WallFactory.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="DoorFactory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="BasicDefine.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ConcreteMazeFactory.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="ObjectFactory.hpp">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcreteMazeFactory.h">
+      <Filter>MazeFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="MazeFactory.h">
+      <Filter>MazeFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomFactory.h">
+      <Filter>MazeFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="WallFactory.h">
+      <Filter>MazeFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="DoorFactory.h">
+      <Filter>MazeFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="Door.h">
+      <Filter>Door</Filter>
+    </ClInclude>
+    <ClInclude Include="EnchantedDoor.h">
+      <Filter>Door</Filter>
+    </ClInclude>
+    <ClInclude Include="BombedDoor.h">
+      <Filter>Door</Filter>
+    </ClInclude>
+    <ClInclude Include="EnchantedRoom.h">
+      <Filter>Room</Filter>
+    </ClInclude>
+    <ClInclude Include="BombedRoom.h">
+      <Filter>Room</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>Room</Filter>
+    </ClInclude>
+    <ClInclude Include="Maze.h">
+      <Filter>Maze</Filter>
+    </ClInclude>
+    <ClInclude Include="EnchantedMaze.h">
+      <Filter>Maze</Filter>
+    </ClInclude>
+    <ClInclude Include="BombedMaze.h">
+      <Filter>Maze</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="BombedWall.h">
+      <Filter>Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="EnchantedWall.h">
+      <Filter>Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="TemplateMazeFactory.hpp">
+      <Filter>MazeFactory</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -4,6 +4,7 @@ class EnchantedDoor :
 	public Door
 {
 public:
+	EnchantedDoor();
 	EnchantedDoor(std::shared_ptr<Room> r1, std::shared_ptr<Room> r2);
 	~EnchantedDoor();
 };

@@ -4,6 +4,7 @@ class EnchantedRoom :
 	public Room
 {
 public:
+	EnchantedRoom();
 	EnchantedRoom(int n);
 	~EnchantedRoom();
 

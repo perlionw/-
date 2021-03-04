@@ -25,6 +25,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Memento", "..\src\Memento\M
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Observer", "..\src\Observer\Observer.vcxproj", "{4351F7D5-9A4B-4EB0-82AA-BA7C6B0077A2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AbstractFactoryAndSingletion", "..\src\AbstractFactoryAndSingletion\AbstractFactoryAndSingletion.vcxproj", "{DBA3797D-D335-4E1E-8942-47CF2C05ADB7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AbstractFactoryAndPrototype", "..\src\AbstractFactoryAndPrototype\AbstractFactoryAndPrototype.vcxproj", "{4BF1A68C-E959-42AA-A6A7-8D20C0F52AFE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -75,6 +79,14 @@ Global
 		{4351F7D5-9A4B-4EB0-82AA-BA7C6B0077A2}.Debug|Win32.Build.0 = Debug|Win32
 		{4351F7D5-9A4B-4EB0-82AA-BA7C6B0077A2}.Release|Win32.ActiveCfg = Release|Win32
 		{4351F7D5-9A4B-4EB0-82AA-BA7C6B0077A2}.Release|Win32.Build.0 = Release|Win32
+		{DBA3797D-D335-4E1E-8942-47CF2C05ADB7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DBA3797D-D335-4E1E-8942-47CF2C05ADB7}.Debug|Win32.Build.0 = Debug|Win32
+		{DBA3797D-D335-4E1E-8942-47CF2C05ADB7}.Release|Win32.ActiveCfg = Release|Win32
+		{DBA3797D-D335-4E1E-8942-47CF2C05ADB7}.Release|Win32.Build.0 = Release|Win32
+		{4BF1A68C-E959-42AA-A6A7-8D20C0F52AFE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4BF1A68C-E959-42AA-A6A7-8D20C0F52AFE}.Debug|Win32.Build.0 = Debug|Win32
+		{4BF1A68C-E959-42AA-A6A7-8D20C0F52AFE}.Release|Win32.ActiveCfg = Release|Win32
+		{4BF1A68C-E959-42AA-A6A7-8D20C0F52AFE}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

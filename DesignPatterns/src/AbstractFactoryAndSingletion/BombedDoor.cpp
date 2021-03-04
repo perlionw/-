@@ -6,6 +6,11 @@ BombedDoor::BombedDoor(std::shared_ptr<Room> r1, std::shared_ptr<Room> r2) : Doo
 }
 
 
+BombedDoor::BombedDoor()
+{
+
+}
+
 BombedDoor::~BombedDoor()
 {
 }
